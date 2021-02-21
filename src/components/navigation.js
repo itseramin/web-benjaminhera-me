@@ -4,6 +4,8 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 
+import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Navigation() {
@@ -24,7 +26,7 @@ export default function Navigation() {
 					</NavDropdown>
 				</Nav>
 				<Nav>
-					<Nav.Link href="https://github.com/itseramin" target="_blank">(GitHub icon here)</Nav.Link>
+					<Nav.Link href="https://github.com/itseramin" target="_blank"><FaGithub /></Nav.Link>
 					<Nav.Link href="#secretdanklink">(idk some other icon)</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
