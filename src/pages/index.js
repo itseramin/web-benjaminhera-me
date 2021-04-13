@@ -1,11 +1,11 @@
 import React from "react"
 
-import Navigation from '../components/navigation'
+import Header from '../components/Header'
 
 export default function Home() {
   return (
     <div>
-      <Navigation />
+      <Header />
       <h1>Home</h1>
     </div>
   )

@@ -1,20 +1,17 @@
 import React from 'react'
-
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-export default function Navigation() {
+export default function Header() {
 	return (
-		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+		<Navbar collapseOnSelect expand="lg" bg="light" variant="light">
 			<Navbar.Brand href="/">Benjamin Hera</Navbar.Brand>
 			<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 			<Navbar.Collapse id="responsive-navbar-nav">
-				<Nav className="mr-auto">
+				<Nav className="me-auto">
 					<Nav.Link href="#cv">CV</Nav.Link>
 					<Nav.Link href="/contact">Contact</Nav.Link>
 					<NavDropdown title="Life history" id="collasible-nav-dropdown">
